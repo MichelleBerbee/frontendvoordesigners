@@ -1,0 +1,307 @@
+<! DOCTYPE html>
+< html  lang = " en " >
+
+< hoofd >
+    < meta  name = " viewport "  content = " initial-scale = 1 " >
+    < titel > Transavia </ title >
+    < link  rel = " stylesheet "  href = " Overzichtspagina.css " >
+</ head >
+
+< body  id = " beginpagina " >
+    < header >
+        < nav >
+            < ul >
+                < li >
+                    < A  href = " beginpagina.html " >
+                        < img  src = " https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Transavia_logo.svg/1280px-Transavia_logo.svg.png "  id = " logo "  alt = " " >
+                    </ a >
+                </ li >
+                < li >
+                    < A  href = " " >
+                        < img  src = " vergrootglas.png "  id = " icoon "  alt = " " >
+                    </ a >
+                </ li >
+                < li >
+                    < A  href = " login.html " >
+                    < img  src = " profiel.png "  id = " iconen "  alt = " " > < span  id = " countlike " > </ span >
+                    </ a >
+                </ li >
+            </ ul >
+        </ nav >
+    </ header >
+
+    < sectie  id = " achtergrond " >
+
+        < p  id = " intro " > Wegdromen bij de < span > 99 </ span > mooiste reisverhalen. Sorteer de verhalen en stel je eigen bundel samen. </ P >
+    </ section >
+
+    < sectie  id = " nieuw " >
+
+        < div >
+            < A  href = " Overzichtspagina.html "  class = " rij " > dromerige verhalen </ a >
+            < A  href = " vrolijke% 20verhalen.html "  class = " rij " > Vrolijke verhalen </ a >
+            < A  href = " Actieverhalen.html "  class = " rij " > Actieverhalen </ a >
+            < A  href = " Overzichtspagina.html "  class = " rij " > Spannende verhalen </ a >
+        </ div >
+
+        < h2 > Nieuwe verhalen (5) </ h2 >
+
+        < div >
+            < artikel >
+                < img  src = " dromerig.png "  alt = " dromerig " >
+                < knop > </ button >
+                < A  href = " Verhaal.html " >
+                    < h3 > Dromerig </ h3 >
+                    < p > Licht van mijn leven. Ik stapte vandaag bus 21 uit. Het was op het midden van de dag. En wat een heerlijke dag! Het was twaalf uur, onze fantastische zoon sliep net. De miezelregen aaide de haartjes op mijn hand en ik dacht aan jou. De mensen dansten en huppelden van en naar het station, [...]
+                    </ p >
+                    < footer >
+                        < ul >
+                            < li > * </ li >
+                            < li > ** </ li >
+                            < li > *** </ li >
+                        </ ul >
+
+                    </ footer >
+                </ a >
+            </ article >
+
+            < artikel >
+                < img  src = " anouk.jpeg "  alt = " alzheimer " >
+                < knop > </ button >
+                < A  href = " Verhaal.html " >
+                    < h3 > Alzheimer </ h3 >
+                    < p > Ik stap uit, euh ... Hoe heet het? Zo'ninformatieinges op wielen. Van de gemeente. Wit met blauw. Kom. Lijn 12. Of was het 21? Ik weet het niet. Ik stap uit en loop achter een wagentje aan. Van wie is dat wagentje? Ik weet het niet. Ik kijk in het wagentje. Er ligt een ventje [...]
+                    </ p >
+                    < footer >
+                        < ul >
+                            < li > * </ li >
+                            < li > ** </ li >
+                            < li > *** </ li >
+                        </ ul >
+                    </ footer >
+                </ a >
+            </ article >
+
+            < artikel >
+                < img  src = " aiden.jpeg "  alt = " " >
+                < knop > </ button >
+                < A  href = " Verhaal.html " >
+                    < h3 > Droom </ h3 >
+                    < p > Slierten mist zwerven rond mijn benen. Net zat ik nog in Bus 21. Het was warm, zweet parelde langs mijn slapen, mijn zoon sliep. Nu loop ik over een klein pad langs eindeloos diepe bouwputten. Een heipaal tussen de oor vloer. Lachende Japanners passeren mij. Een van de Japanners [...]
+                    </ p >
+                    < footer >
+                        < ul >
+                            < li > * </ li >
+                            < li > ** </ li >
+                            < li > *** </ li >
+                        </ ul >
+                    </ footer >
+                </ a >
+            </ article >
+
+            < artikel >
+                < img  src = " bas.jpeg "  alt = " dromerig " >
+                < knop > </ button >
+                < A  href = " Verhaal.html " >
+                    < h3 > Verhalend </ h3 >
+                    < p > Het was op het midden van de dag dat ik uit bus 21 stapte. Halte Amsterdam Centraal. Mijn zoon sliep in zijn kinderwagen. Drommen mensen kozen hun weg van en naar de stad. Ik liep langs de bouwputten, langs het drijvende Chinese restaurant. Heipalen beukten in de koude grond. Eentonig, drammerig. Wind snijdt door mijn [...]
+                    </ p >
+                    < footer >
+                        < ul >
+                            < li > * </ li >
+                            < li > ** </ li >
+                            < li > *** </ li >
+                        </ ul >
+                    </ footer >
+                </ a >
+            </ article >
+
+            < artikel >
+                < img  src = " verliefd.jpeg "  alt = " verliefd " >
+                < knop > </ button >
+                < A  href = " Verhaal.html " >
+                    < h3 > Verliefd </ h3 >
+                    < p > Licht van mijn leven. Ik stapte vandaag bus 21 uit. Het was op het midden van de dag. En wat een heerlijke dag! Het was twaalf uur, onze fantastische zoon sliep net. De miezelregen aaide de haartjes op mijn hand en ik dacht aan jou. De mensen dansten en huppelden van en naar het station, [...]
+                    </ p >
+                    < footer >
+                        < ul >
+                            < li > * </ li >
+                            < li > ** </ li >
+                            < li > *** </ li >
+                            < li > *** </ li >
+                            < li > *** </ li >
+                        </ ul >
+                    </ footer >
+                </ a >
+            </ article >
+
+            < span > & nbsp ; </ span >
+        </ div >
+
+        < A  class = " knop "  href = " overzicht.html " > Overzicht </ a >
+
+    </ section >
+
+    < sectie  id = " populair " >
+        < h2 > Populaire verhalen (8) </ h2 >
+
+        < div >
+            < artikel >
+                < img  src = " Thijs.jpeg "  alt = " dromerig " >
+                < knop > </ button >
+                < A  href = " Verhaal.html " >
+                    < h3 > Moe </ h3 >
+                    < p > De buschauffeur port me wakker. We zijn bij de eindhalte, Centraal Station. Ik stap uit en duw de kinderwagen voort mijn zoon ligt te slapen. Ik wou dat ik hem was. De mensen lopen in gek gekeerd over het plein. De regen doet z'n best mij wakker te houden, maar mijn oogleden, zwaar, [...]
+                    </ p >
+                    < footer >
+                        < ul >
+                            < li > * </ li >
+                            < li > ** </ li >
+                            < li > *** </ li >
+                        </ ul >
+                    </ footer >
+                </ a >
+            </ article >
+
+            < artikel >
+                < img  src = " stoned.jpeg "  alt = " " >
+                < knop > </ button >
+                < A  href = " Verhaal.html " >
+                    < h3 > Stoned </ h3 >
+                    < p > bijna ik de bus uitstap steek ik een dikke vette joint op. De derde van de dag al. Ik heb een lange haal, inhaleer diep, houd de rook een tijdje binnen en blaas dan, de lippen gerond, het hoofd een beetje in de nek, een enorme stoomkegel de atmosfeer in. Het miezert een beetje en [...]
+                    </ p >
+                    < footer >
+                        < ul >
+                            < li > * </ li >
+                            < li > * </ li >
+                            < li > * </ li >
+                        </ ul >
+                    </ footer >
+                </ a >
+            </ article >
+
+            < artikel >
+                < img  src = " danielle.jpeg "  alt = " " >
+                < knop > </ button >
+                < A  href = " Verhaal.html " >
+                    < h3 > Rusteloos </ h3 >
+                    < p > Stationsplein, 12.00 uur in de middag De Cock met COCK. stapte de bus uit. In de kruiwagen die De Cock blijvenuwde lag zijn trouwe kompaan Vledder zijn roes uit te slapen. Sinds de dood van hun schepper, nu alweer maar maanden geleden, was Vledder óf bezig laveloos te worden óf bezig zijn roes uit te [...]
+                    </ p >
+                    < footer >
+                        < ul >
+                            < li > * </ li >
+                            < li > ** </ li >
+                            < li > *** </ li >
+                            < li > *** </ li >
+                            < li > *** </ li >
+                        </ ul >
+                    </ footer >
+                </ a >
+            </ article >
+
+            < artikel >
+                < img  src = " taufieq.jpeg "  alt = " " >
+                < knop > </ button >
+                < A  href = " Verhaal.html " >
+                    < h3 > Poepen </ h3 >
+                    < p > Het welhaast slaapwekkende geschud van de bus heeft er voor gezorgd dat ik, tegen de tijd dat ik moet uitstappen (ter hoogte van Centraal Station Amsterdam) blijkbaar moet moeten poepen. Ik wil de openbare bibliotheek, waar ik toch moet zijn, omdat ik Stijloefeningen van Raymond Queneau wilde lezen. Er kwam [...]
+                    </ p >
+                    < footer >
+                        < ul >
+                            < li > * </ li >
+                            < li > ** </ li >
+                            < li > *** </ li >
+                            < li > *** </ li >
+                            < li > ***** </ li >
+                        </ ul >
+                    </ footer >
+                </ a >
+            </ article >
+
+            < artikel >
+                < img  src = " bas.jpeg "  alt = " " >
+                < knop > </ button >
+                < A  href = " Verhaal.html " >
+                    < h3 > Verhalend </ h3 >
+                    < p > Het was op het midden van de dag dat ik uit bus 21 stapte. Halte Amsterdam Centraal. Mijn zoon sliep in zijn kinderwagen. Drommen mensen kozen hun weg van en naar de stad. Ik liep langs de bouwputten, langs het drijvende Chinese restaurant. Heipalen beukten in de koude grond. Eentonig, drammerig. Wind snijdt door mijn [...]
+                    </ p >
+                    < footer >
+                        < ul >
+                            < li > * </ li >
+                            < li > ** </ li >
+                            < li > *** </ li >
+                            < li > **** </ li >
+                            < li > ***** </ li >
+                        </ ul >
+                    </ footer >
+                </ a >
+            </ article >
+
+            < artikel >
+                < img  src = " sharief.jpeg "  alt = " " >
+                < knop > </ button >
+                < A  href = " Verhaal.html " >
+                    < h3 > Sportcommentator </ h3 >
+                    < p > En there gestopt lijn 21 op exact de juiste tijd op precies de juiste plek op het Stationsplein. De deuren gaat open, de spanning is te snijden. En wie komt daar als eerste uit? Ja hoor, het is de felgroene kinderwagen. Molovich Jr. is te slapen, op de voet gevolgd door zijn vader. De [...]
+                    </ p >
+                    < footer >
+                        < ul >
+                            < li > * </ li >
+                            < li > ** </ li >
+                            < li > *** </ li >
+                            < li > **** </ li >
+                            < li > ***** </ li >
+                        </ ul >
+                    </ footer >
+                </ a >
+            </ article >
+
+            < artikel >
+                < img  src = " rianne.jpeg "  alt = " " >
+                < knop > </ button >
+                < A  href = " Verhaal.html " >
+                    < h3 > Paranoia </ h3 >
+                    < p > Ik sluip de bus uit. Kop in de kraag. Ik maak me klein en duw m'n zoon vooruit. Hij slaapt. Eindelijk. Zijn gejengel trok veel te veel aandacht. De mensen lopen over het stationsplein. Het leven als een grote, het knipperende pijl boven m'n hoofd hangt: HIER LOOPT HIJ! Gelukkig is het kloteweer en kijken [...]
+                    </ p >
+                    < footer >
+                        < ul >
+                            < li > * </ li >
+                            < li > ** </ li >
+                            < li > *** </ li >
+                            < li > **** </ li >
+                            < li > ***** </ li >
+                        </ ul >
+                    </ footer >
+                </ a >
+            </ article >
+
+            < artikel >
+                < img  src = " joelle.png "  alt = " " >
+                < knop > </ button >
+                < A  href = " Verhaal.html " >
+                    < h3 > Paranoia </ h3 >
+                    < p > Ik sluip de bus uit. Kop in de kraag. Ik maak me klein en duw m'n zoon vooruit. Hij slaapt. Eindelijk. Zijn gejengel trok veel te veel aandacht. De mensen lopen over het stationsplein. Het leven als een grote, het knipperende pijl boven m'n hoofd hangt: HIER LOOPT HIJ! Gelukkig is het kloteweer en kijken [...]
+                    </ p >
+                    < footer >
+                        < ul >
+                            < li > * </ li >
+                            < li > ** </ li >
+                            < li > *** </ li >
+                            < li > **** </ li >
+                            < li > ***** </ li >
+                        </ ul >
+                    </ footer >
+                </ a >
+            </ article >
+
+            < span > & nbsp ; </ span >
+
+        </ div >
+
+        < A  class = " knop "  href = " overzicht.html " > Overzicht </ a >
+
+    </ section >
+    < script  src = " Script.js " > </ script >
+</ body >
+
+</ html >

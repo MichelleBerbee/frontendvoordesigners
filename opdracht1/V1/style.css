@@ -1,0 +1,53 @@
+body{
+font-family: verdana;
+background-color: #FF9933;
+margin: 0em auto;
+}
+
+header {
+background-color: white;
+height: 10em;
+}
+header nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0em;
+    align-items: center;
+    margin-top: -0.5em;
+    margin-bottom: -1em;
+}
+
+header nav ul li:nth-child(1) {
+    margin-right: auto;
+    margin-left: 1em;
+}
+
+li {
+list-style: none;
+}
+
+ul {
+margin: 5em;
+margin-left: 3em;
+}
+
+img {
+float: left;
+height: 30em;
+width: 30em;
+border:solid white 10px;
+padding-bottom: 10em;
+background-color: white;
+margin: 5em 2em 5em 2em;
+}
+
+h1{
+background-color: white;
+height: 2em;
+width: 100%;
+left: 0em;
+top: 0em;
+padding: 0em;
+margin: 0em;
+position: fixed;
+}
