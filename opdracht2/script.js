@@ -1,28 +1,35 @@
 var slideIndex = 1;
 showSlides(slideIndex);
 
-// Next/previous controls
+// de knoppen
 function plusSlides(n) {
   showSlides(slideIndex += n);
 }
 
-// Thumbnail image controls
 function currentSlide(n) {
   showSlides(slideIndex = n);
 }
 
 function showSlides(n) {
   var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
+  //fotos ophalen
+  var slides = document.getElementsByClassName("foto");
+  //waar ben ik puntjes ophalen
+  var waarbenik = document.getElementsByClassName("waarbenik");
+  //als aantal fotos minder is dan n dan wordt het 1
   if (n > slides.length) {slideIndex = 1}
+  //als n kleiner is dan 1 wordt index gelijk aan aantal afbeeldingen
   if (n < 1) {slideIndex = slides.length}
+  //i is 0, als i kleiner is dan aantal afbeeldingen komt er 1 bij
   for (i = 0; i < slides.length; i++) {
+    //de rest wordt verborgen
       slides[i].style.display = "none";
   }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
+
+  //zodat je kunt zijn waar je bent met de rechthoeken onderin
+  for (i = 0; i < waarbenik.length; i++) {
+      waarbenik[i].className = waarbenik[i].className.replace(" active","");
   }
   slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
+  waarbenik[slideIndex-1].className += " active";
 }
