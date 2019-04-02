@@ -1,0 +1,41 @@
+body {
+font-family: verdana;
+background-color: red;
+}
+
+h1 {
+color: red;
+background-color: white;
+height: 2em;
+position: fixed;
+width: 100em;
+top: 0em;
+margin-top: 0em;
+left: 0em;
+
+
+}
+section {
+color: white;
+display: grid;
+grid-template-columns: repeat(2, 33%);
+grid-column-gap: 10em;
+}
+
+img {
+width: 10em;
+
+}
+
+button {
+padding: 2em;
+margin: 2em;
+border-radius: 2em;
+top: 2em;
+margin-top: 10em;
+}
+
+button:hover {
+background-color: red;
+border-color: white;
+}
