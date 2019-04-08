@@ -1,41 +1,105 @@
 body {
-font-family: verdana;
-background-color: red;
+font-family: sans-serif;
+background-color: white;
 }
 
 h1 {
-color: red;
-background-color: white;
+color: white;
+background-color: black;
 height: 2em;
+font: 10em;
 position: fixed;
-width: 100em;
+width: 100%;
 top: 0em;
 margin-top: 0em;
 left: 0em;
-
-
 }
+
 section {
-color: white;
-display: grid;
-grid-template-columns: repeat(2, 33%);
-grid-column-gap: 10em;
+color: black;
+background-color: #f8f7f7;
+max-width: 100%;
+border: solid white 20px;
+top: 50em;
+margin-top: 2em;
 }
 
-img {
-width: 10em;
+.content-container {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  grid-column-gap: 2em;
+}
 
+.foto{
+width: 100%;
+padding-top: 0.5em;
 }
 
 button {
-padding: 2em;
-margin: 2em;
-border-radius: 2em;
+padding: 1em;
+margin: 1em;
+width: 90%;
+border-radius: 1em;
 top: 2em;
-margin-top: 10em;
+border-color: black;
+border: solid 0.3em;
+font-size: 1em;
 }
 
 button:hover {
-background-color: red;
+background-color: #cf1417;
 border-color: white;
+color: white;
+}
+
+.title {
+margin: 0em;
+padding: 0em;
+top: 0em;
+color: white;
+background-color: black;
+height: 3em;
+width: 100%;
+}
+
+h2 {
+margin: 20em;
+padding: 20em;
+top: 20em;
+}
+
+p{
+left: 1em;
+max-width: 95%;
+padding-left: 0em;
+position: relative;
+}
+
+/*uitklapbare knop*/
+.show{
+  opacity: 1;
+  overflow: hidden;
+  transition: max-height 300ms, opacity 300ms 100ms;
+}
+
+.hidden{
+  opacity: 0;
+  display: none;
+  transition: max-height 300ms 100ms, opacity 300ms;
+}
+
+.container .beschrijvingContainer {
+display: none;
+}
+
+.container.active .beschrijvingContainer {
+  display: block;
+}
+
+span {
+display: none;
+}
+
+span.show {
+  display: block;
 }
