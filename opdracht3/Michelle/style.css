@@ -1,5 +1,5 @@
 body {
-font-family: sans-serif;
+font-family: 	Courier New;
 background-color: white;
 }
 
@@ -36,14 +36,15 @@ padding-top: 0.5em;
 }
 
 button {
-padding: 1em;
-margin: 1em;
-width: 90%;
+top: 0em;
+width: 100%;
 border-radius: 1em;
 top: 2em;
 border-color: black;
-border: solid 0.3em;
+border: solid 0.1em;
 font-size: 1em;
+font-family: 	Courier New;
+padding: 1em;
 }
 
 button:hover {
@@ -53,19 +54,23 @@ color: white;
 }
 
 .title {
-margin: 0em;
-padding: 0em;
-top: 0em;
+width: 92.5%;
+padding: 1em;
 color: white;
 background-color: black;
-height: 3em;
-width: 100%;
 }
 
-h2 {
-margin: 20em;
-padding: 20em;
-top: 20em;
+.titeltje {
+  font-size:4em;
+  height: 1.3em;
+}
+
+nav{
+text-align: center;
+top: 0em;
+height: 3em;
+background-color: black;
+width: 100%;
 }
 
 p{
@@ -76,24 +81,19 @@ position: relative;
 }
 
 /*uitklapbare knop*/
-.show{
-  opacity: 1;
-  overflow: hidden;
-  transition: max-height 300ms, opacity 300ms 100ms;
-}
-
-.hidden{
-  opacity: 0;
-  display: none;
-  transition: max-height 300ms 100ms, opacity 300ms;
-}
-
-.container .beschrijvingContainer {
+.container .beschrijvingContainter {
 display: none;
 }
-
-.container.active .beschrijvingContainer {
+.container.active.beschrijvingContainter {
   display: block;
+}
+
+img {
+width: 60%;
+top: 0em;
+display: block;
+margin-left: auto;
+margin-right: auto;
 }
 
 span {
@@ -101,5 +101,12 @@ display: none;
 }
 
 span.show {
+  background-color: #cf1417;
   display: block;
+}
+
+.laadknop{
+  height: 3em;
+  margin-top:3em;
+  width: 100%
 }
