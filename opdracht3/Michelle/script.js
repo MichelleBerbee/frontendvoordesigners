@@ -64,7 +64,7 @@ function contentInladen() { //data uit database halen
 			laadElement.classList.remove('show'); //gifje 4sec laten staan
 			var datainhoud = request.response; //de response slaan we op in de variabele
 			showData(datainhoud); //functie die zorgt dat de section word gevult met juiste activiteiten
-		}, 1000) //na 4seconden stopt de gif en laadt hij de content
+		}, 4000) //na 4seconden stopt de gif en laadt hij de content
 	});
 
 	request.onerror = function () {
