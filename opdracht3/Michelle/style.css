@@ -19,6 +19,7 @@ section {
 	color: black;
 	background-color: #f8f7f7;
 	max-width: 100%;
+	max-height: 50em;
 	border: solid white 20px;
 	top: 50em;
 	margin-top: 2em;
@@ -36,7 +37,7 @@ section {
 }
 
 button {
-	margin: top: 2em;
+	margin-top: 1em;
 	width: 100%;
 	border-radius: 1em;
 	border-color: black;
@@ -44,12 +45,14 @@ button {
 	font-size: 1em;
 	font-family: 	Courier New;
 	padding: 1em;
+
 }
 
 button:hover {
 	background-color: #cf1417;
 	border-color: white;
 	color: white;
+	box-shadow: 0.1em 0.1em 0.5em 0.1em grey;
 }
 
 .title {
@@ -109,6 +112,16 @@ span.show {
 .laadknop{
 height: 4em;
 margin-top: 3em;
+width: 100%;
 
- width: 100%
+}
+#boven {
+	position: static;
+}
+
+.boven {
+	position: fixed;
+	bottom: 1em;
+	right: 1em;
+	width: 5em;
 }
