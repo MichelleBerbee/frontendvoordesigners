@@ -6,3 +6,4 @@ De pijltjes staan in een linkje en ik heb dots toegevoegd zodat je weet op welke
 In de Js laadt ik de foto’s in een function. In die function heb ik 2 variabelen gemaakt waarin ik de puntjes en de cijfers ook ophaal. Daarna een for loop zodat de carousel door de verschillende foto’s heen kan loopen. 
 Onderin heb ik nog een for loop die door de dots heen loopt. 
 De foto’s die ik niet wil laten weergeven staan op display none. 
+https://michelleberbee.github.io/frontendvoordesigners/opdracht2/
